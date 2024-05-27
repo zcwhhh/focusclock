@@ -13,7 +13,7 @@ class FocusTimer:
         self.session_count += 1
         print(f"专注时间开始，持续时间：{self.work_time // 60}分钟。")
         self.timer = Timer(self.work_time, self.end_work)
-        self.timer.start()
+        self.timer。start()
 
     def end_work(self):
         print("工作时间结束，休息一下！")
@@ -27,7 +27,7 @@ class FocusTimer:
         self.start()
 
     def cancel(self):
-        self.timer.cancel()
+        self.timer。cancel()
         print("专注时钟已取消。")
 
 # 使用示例
